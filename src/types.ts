@@ -2,7 +2,7 @@ export interface ExpenseItem {
   id: string;
   description: string;
   price: number;
-  tag: string;
+  tag?: string;
   createdAt: number;
 }
 
